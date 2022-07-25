@@ -16,7 +16,7 @@ An implementation of [BLSCT](https://docs.navcoin.org/blsct) in Swift. BLSCT is 
 
 Add the following line to your `Package.swift` file:
 ```swift
-.package(url: "https://github.com/anquii/BLSCT.git", from: "1.0.0")
+.package(url: "https://github.com/anquii/BLSCT.git", from: "0.1.0")
 ```
 ...or integrate with Xcode via `File -> Swift Packages -> Add Package Dependency...` using the URL of the repository.
 
@@ -48,3 +48,14 @@ Find out more by exploring the public API, and by looking through the [tests](Te
 ## License
 
 `BLSCT` is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for more information.
+
+## Donations
+
+If you've found this software useful, please consider making a small contribution to one of these crypto addresses:
+
+```
+XNAV: xNTYqoQDzsiB5Cff9Wpt65AgZxYkt1GFy7KwuDafqRU2bcAZqoZUW4Q9TZ9QRHSy8cPsM5ALkJasizJCmqSNP9CosxrF2RbKHuDz5uJVUBcKJfvnb3RZaWygr8Bhuqbpc3DsgfB3ayc
+XMR: 49jzT7Amu9BCvc5q3PGiUzWXEBQTLQw68a2KvBFTMs7SHjeWgrSKgxs69ycFWQupyw9fpR6tdT8Hp5h3KksrBG9m4c8aXiG
+BTC: bc1q7hehfmnq67x5k7vz0cnc75qyflkqtxe2avjkyw
+ETH (ERC-20) & BNB (BEP-20): 0xe08e383B4042749dE5Df57d48c57A690DC322b8d
+```

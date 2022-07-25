@@ -17,15 +17,15 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/anquii/Base58Check.git",
-            .upToNextMajor(from: "1.0.0")
+            .exact("1.0.1")
         ),
         .package(
             url: "https://github.com/attaswift/BigInt.git",
-            .upToNextMajor(from: "5.3.0")
+            .exact("5.3.0")
         ),
         .package(
             url: "https://github.com/anquii/CryptoSwiftWrapper.git",
-            .upToNextMajor(from: "1.4.3")
+            .exact("1.4.3")
         ),
         .package(
             url: "https://github.com/anquii/MCLSwiftWrapper.git",
