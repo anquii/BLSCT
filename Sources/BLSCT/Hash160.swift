@@ -1,10 +1,11 @@
 import Foundation
 import CryptoKit
+import RIPEMD160
 
-struct DoubleSHA256 {
+struct Hash160 {
     static func hash(data: Data) -> Data {
         let sha256 = Data(SHA256.hash(data: data))
-        return Data(SHA256.hash(data: sha256))
+        return RIPEMD160.hash(data: sha256)
     }
     private init() {}
 }

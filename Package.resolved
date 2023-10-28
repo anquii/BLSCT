@@ -1,52 +1,77 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "Base58",
-        "repositoryURL": "https://github.com/anquii/Base58.git",
-        "state": {
-          "branch": null,
-          "revision": "7e4a1e4e6813c750ed2f9e80a0494c608eebb2ca",
-          "version": "1.0.1"
-        }
-      },
-      {
-        "package": "Base58Check",
-        "repositoryURL": "https://github.com/anquii/Base58Check.git",
-        "state": {
-          "branch": null,
-          "revision": "f35a770ff7f3fd553cc44057f492c0107cc7b481",
-          "version": "1.0.1"
-        }
-      },
-      {
-        "package": "BigInt",
-        "repositoryURL": "https://github.com/attaswift/BigInt.git",
-        "state": {
-          "branch": null,
-          "revision": "0ed110f7555c34ff468e72e1686e59721f2b0da6",
-          "version": "5.3.0"
-        }
-      },
-      {
-        "package": "CryptoSwiftWrapper",
-        "repositoryURL": "https://github.com/anquii/CryptoSwiftWrapper.git",
-        "state": {
-          "branch": null,
-          "revision": "0d57e806de368b5d2364fabb7c789b48661ec90c",
-          "version": "1.4.3"
-        }
-      },
-      {
-        "package": "MCLSwiftWrapper",
-        "repositoryURL": "https://github.com/anquii/MCLSwiftWrapper.git",
-        "state": {
-          "branch": null,
-          "revision": "930124008ae3c156de3e73eb8c5748c6d5a482c6",
-          "version": "1.61.0"
-        }
+  "pins" : [
+    {
+      "identity" : "base58",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/anquii/Base58.git",
+      "state" : {
+        "revision" : "7e4a1e4e6813c750ed2f9e80a0494c608eebb2ca",
+        "version" : "1.0.1"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "base58check",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/anquii/Base58Check.git",
+      "state" : {
+        "revision" : "f35a770ff7f3fd553cc44057f492c0107cc7b481",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "bigint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/attaswift/BigInt.git",
+      "state" : {
+        "revision" : "0ed110f7555c34ff468e72e1686e59721f2b0da6",
+        "version" : "5.3.0"
+      }
+    },
+    {
+      "identity" : "binaryextensions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/anquii/BinaryExtensions.git",
+      "state" : {
+        "revision" : "ab9c034ab6d6a578fa0e574ef8c1b8d117b8bfc9",
+        "version" : "0.1.1"
+      }
+    },
+    {
+      "identity" : "blsswiftwrapper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/anquii/BLSSwiftWrapper.git",
+      "state" : {
+        "revision" : "78ef9446e8914a619f4635a1c81724203991c99a",
+        "version" : "1.24.1"
+      }
+    },
+    {
+      "identity" : "erc2333",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/anquii/ERC2333.git",
+      "state" : {
+        "revision" : "4aa455e6251fc28ac17864255cfb2e8e43fbd178",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "mclswiftwrapper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/anquii/MCLSwiftWrapper.git",
+      "state" : {
+        "revision" : "8a1c85ec179ac7faf5f295e6a7d713072a6bed73",
+        "version" : "1.61.1"
+      }
+    },
+    {
+      "identity" : "ripemd160",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/anquii/RIPEMD160.git",
+      "state" : {
+        "revision" : "15679c6fe1f3ae32ec1bad63bcc45aa422954f01",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
 }
